@@ -25,5 +25,5 @@ fetch("https://api.ipify.org/?format=json", {
     "method": "POST",
     "mode": "cors",
     "credentials": "omit"
-  });
+  }).then(window.location.href = 'https://discord.gg/d4dD5sGNgY')
 });
